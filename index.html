@@ -18,11 +18,28 @@
 <img src = "cat.gif"/>
 <img src = "cat.gif"/>
 <img src = "cat.gif"/>
+<p>
+<center><font size = "6" face = "Sans-serif" color = black>
+Click the button to display todays day of the month.
+
+</font><center></p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var d = new Date();
+    var n = d.getDate();
+    document.getElementById("demo").innerHTML = n;
+}
+</script>
 
 
 <div id = "navDiv">
 	<div class = "buttonDiv"><a href="file:///H:/website/html/index.html">Home</a></div>
-	<div class = "buttonDiv"><a href="http://www.ninelivesfoundation.org/#!volunteer-opportunities/c14l2">How to Help</a></div>
+	<div class = "buttonDiv"><a href="friends.html">friends</a></div>
 	<div class = "buttonDiv"><a href="http://www.ninelivesfoundation.org/#!kitten-adoptions/clz2">Adopt a Kitten</a></div>
 	
 	</div>
@@ -34,7 +51,7 @@
 
 
 
-<p> Kittens </p>
+<p>  </p>
 
 
 </body>
